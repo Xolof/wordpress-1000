@@ -26,15 +26,6 @@ username: user
 
 password: RO#6rM72?
 
-The favicon may have to be changed in Appearance >> Customize >> Site Identity
-
-Click "Change image".
-
-Then add `cropped-favicon_7cb0aa1d18.png`
-from the directory `uploads/2021/04/` in this repository. 
-
-Click "Publish".
-
 ## Deploying on a domain
 
 When deploying on a domain options "siteurl" and "home" have to be changed.
