@@ -10,6 +10,8 @@ workdir=${PWD##*/}
 
 image="${workdir}_db_1"
 
+docker cp html ${image}:/var/www/
+
 docker cp ./migrate.sql ${image}:/
 
 docker exec -it ${image} bash -c "mysql -uroot -ppass exampledb < migrate.sql"
